@@ -1,0 +1,130 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.cabecalho {
+  background-color: rgb(87, 96, 101);
+  background-repeat: no-repeat;
+  height: 301px;
+  background-size: cover;
+  text-align: center;
+}
+
+.banner {
+  display: flex;
+  width: 1592px;
+  height: 301px;
+}
+
+.logo {
+  background-color: #fff;
+  border-radius: 50%;
+  width: 170px;
+  height: 170px;
+  margin-top: 32px;
+  border: 2px;
+}
+
+.logo-texto1 {
+  font-family: "lobster";
+  font-weight: 400;
+  font-size: 44px;
+  line-height: 93%;
+  letter-spacing: 0%;
+
+}
+.logo-texto2 {
+  font-family: "lobster";
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 93%;
+  letter-spacing: 0%;
+  color: black;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.menu-principal {
+    background-color: rgb(137, 201, 215);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    color: black;
+}
+
+.item-menu {
+    color: black;
+    font-size: 20px;
+    font-weight: 500;
+    text-decoration: none;
+    padding-left: 50px;  
+}
+
+.categorias {
+  font-family: Lobster;
+  font-weight: 400;
+  font-size: 45px;
+  line-height: 75%;
+  letter-spacing: 0%;
+  text-align: center;
+  padding-top: 41px;
+  padding-bottom: 52px;
+  color: black;
+}
+
+.lista {
+  columns: 5;
+  margin-left: 84px;
+  margin-right: 52px;
+  list-style-type: disc;
+  color: #6B705C;
+  line-height: 130%;
+  padding-bottom: 58px;
+}
